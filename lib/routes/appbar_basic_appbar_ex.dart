@@ -9,10 +9,10 @@ class BasicAppbarExample extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.redAccent,
         leading: const Icon(Icons.tag_faces),
-        title: const Text("Sample title"),
+        title: const Text("MIL Survey"),
         actions: <Widget>[
           IconButton(
-            icon: const Icon(Icons.directions_bike),
+            icon: const Icon(Icons.add_photo),
             onPressed: () {},
           ),
           IconButton(
